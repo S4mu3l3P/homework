@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Gafata);
+
+body {
+    /*font-family: "Gafata", "Helvetica", "Serif"; */
+    margin: 0px;
+}
+
+#tagline
+{
+    margin-right: 40%;
+    margin-left: 10%;
+}
+
+.images{
+    position: relative;
+}
+
+.images img{
+  position: relative;
+    right: 8%;
+}
+
+section{
+   background-color: #00c8d7;
+    padding-top: 50px;
+    color: white;
+    height: 440px;
+}
+
+.navbar-inverse{
+   margin: 0px;   
+}
+
+.navbar-header h1
+{
+  color: white;
+    font-weight: 800;
+    padding-bottom: 8px;
+    margin-left: 30px;;
+}
+
+section .row .thumbnail{
+    background-color: #00c8d7;
+    border-color: #00c8d7;
+}
+
+section .row .thumbnail img{
+    width: 200px;
+}
+
+section .col-md-4{
+  width: 20%; 
+    display: relative;
+    left: 10%;
+    bottom: 50px;
+}
+
+.description img{
+  width: 50px;
+    
+}
+
+.description strong{
+   font-size: 1.2em;   
+}
+
+.description .thumbnail{
+    border-color: white;
+    width: 300px;
+}
+
+.paragraph{
+   text-align: center;
+    padding: 20px;
+}
+    
+.description{
+  margin-left: 6%;   
+}
+
+footer{
+  background-color: #242b35;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+.navbar-right{
+   margin-right: 70px;   
+}
+
+.navbar-header{
+   padding-left: 30px;
+}
+
+.jumbotron{
+   padding-left: 8%; 
+   padding-right: 8%;
+}
+
+.navbar-inverse{
+   margin-bottom: 0px;  
+}
+
+.jumbotron h1{
+   font-weight: 800;   
+}
+
+
+.thumbnail{
+   margin-left: 22%;
+   margin-right: 22%;
+   border: 0px;
+}
+
+footer p{
+   margin-left: 8%;    
+}
+
+footer hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0; 
+}

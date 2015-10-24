@@ -1,0 +1,42 @@
+/* Your styles should go here */
+
+.candrink, .nodrink  {
+  font-size: 1.5em;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.nodrink {
+  background: red;
+  color: white;
+}
+.candrink {
+  background: #efefef;
+  color: black;
+}
+
+
+.drinks {
+  position: absolute;
+  width: 100%;
+}
+.drinks > div{
+  float: left;
+  width: 200px;
+  height: 300px;
+  background: #daebf7;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.drinks > div img{
+  width: 80%;
+}
+.drinks > div h2{
+  font-size: 1.1em;  
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">        
+
+  </head>
+
+  <body>
+   <header>
+      <h1>Person Form</h1>   
+       <hr>
+   </header>
+    <section>
+        <p class="text-danger">Error Messages.</p>
+    <form>
+        <!-- 
+             if you try using form-inline you won't get the desired output. 
+             you'll see not only the form-groups, but all the elements inline.
+             here I go for the standard layout classes.
+        -->
+        <div class="row">
+          <div class="col-md-2">
+            <div class="form-group">
+              <!-- 
+                    'for' is used to link the label with the input element.
+                    if you click on the label, you'll see that the input gets
+                    the focus.
+               -->                          
+              <label for="ititle">Title</label>          
+              <input type="text" class="form-control" id="ititle" placeholder="Mr.">
+            </div>
+          </div>
+          
+          <div class="col-md-5">
+            <div class="form-group">
+              <label for="ifname">First name</label>          
+              <input type="text" class="form-control" id="ifname" placeholder="Chee Kin">
+            </div>        
+          </div>
+          
+          <div class="col-md-5">
+            <div class="form-group">
+              <label for="ifname">Last name</label>          
+              <input type="text" class="form-control" id="ifname" placeholder="Lin">
+            </div>       
+          </div>  
+   
+        </div>
+        
+        <!-- Well, here you should put the rest of the stuff -->
+        
+        <div class="row">
+
+          
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="ifname">Gender</label>          
+              <select class="form-control">
+                  <option>Male</option>
+                  <option>Female</option>
+              </select>
+            </div>        
+          </div>
+          
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="ifname">Date of Birth</label>          
+              <input type="date" class="form-control" id="ifname" placeholder="Lin">
+            </div>       
+          </div>  
+   
+        </div>
+        
+        <div class="row">
+          
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="ifname">Address</label>          
+              <input type="text" class="form-control" id="ifname" placeholder="Street">
+            </div>       
+          </div>  
+   
+        </div>
+        <div class="row">
+          
+          <div class="col-md-6">
+            <div class="form-group">         
+              <input type="text" class="form-control" id="ifname" placeholder="City">
+            </div>       
+          </div>  
+            <div class="col-md-6">
+            <div class="form-group">         
+              <input type="text" class="form-control" id="ifname" placeholder="State">
+            </div>       
+          </div>
+   
+        </div>
+         <div class="row">
+
+             <div class="col-md-6">
+            <div class="form-group">    
+              <input type="text" class="form-control" id="ifname" placeholder="Post Code">
+            </div>       
+          </div>  
+          
+          <div class="col-md-6">
+            <div class="form-group">         
+              <select class="form-control">
+                  <option>Country</option>
+                  <option>Italy</option>
+                  <option>Spain</option>
+                  <option>Sweeden</option>
+              </select>
+            </div>        
+          </div>
+   
+        </div>
+         <div class="row">
+
+             <div class="bottone">
+            <div class="form-group">    
+              <button type="button" class="btn btn-primary">Register</button>
+            </div>       
+          </div>  
+          
+   
+        </div>
+        
+        
+      </form>
+  </section>
+  
+  </body>
+</html>

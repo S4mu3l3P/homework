@@ -1,0 +1,18 @@
+.navbar-brand{
+   border-right: 2px solid black;
+   font-weight: 800;
+}
+
+#tagline{
+   text-align: center;
+}
+
+.par{
+   font-size: 1.4em;   
+    margin: 0px;
+}
+
+#tagline h1{
+  font-weight: 800;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="css/styles.css">        
+  <script src="lib/jquery-2.1.0.min.js"></script>         
+  <script src="js/app.js"></script>
+  <script src="js/data.js"></script>
+  <!-- Put your js and css references here -->
+</head>
+<body>
+    <header>
+        <h1>Flight Status</h1>
+        <form action="">
+            <input type="checkbox" name="scheduled" value="scheduled" checked="checked"> Scheduled
+            <input type="checkbox" name="boarding" value="boarding"checked="checked"> Boarding 
+            <input type="checkbox" name="cancelled" value="cancelled" checked="checked"> Cancelled 
+            <input type="checkbox" name="delayed" value="delayed" checked="checked"> Delayed 
+        </form>
+    </header>
+    <hr>
+    <section>
+        <table id = "test" style="width:100%">
+            <tr id="air">
+                <td>Airline</td>
+                <td>Flight</td> 
+                <td>Destination</td>
+                <td>Dearture Time</td>
+                <td>Status</td>
+                <td>Gate</td>
+            </tr>
+            
+        </table>
+    </section>
+</body>
+
+</html>
