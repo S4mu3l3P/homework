@@ -1,0 +1,52 @@
+body{
+    background-color: #66CC66;
+}
+
+.movies .caption {
+  min-height: 150px;
+}
+
+.customblocks{
+    display: inline-block;
+    text-align: center;
+    margin-left: 4.5%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.customblocks img{
+    width: 300px;
+    height: 450px;
+}   
+
+.customblocks a{
+    padding: 20px;
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.customblocks .customtitle{
+    width: 300px;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+#btnsubmit{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#txtsrc{
+    padding: 10px;
+}   
+
+.insertform{
+    text-align: center;
+    margin-top: 20px;
+}   
