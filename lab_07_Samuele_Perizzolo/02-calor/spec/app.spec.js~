@@ -1,0 +1,7 @@
+describe("Calor", function() {
+
+  it("Correct calor", function() { 
+      expect(Calor.selectCity("trento")).toBe("vapor");
+  }); 
+ 
+});
